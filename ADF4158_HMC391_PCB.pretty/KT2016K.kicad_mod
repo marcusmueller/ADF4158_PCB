@@ -1,0 +1,189 @@
+(footprint "KT2016K"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Oscillator, DIP8,http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf")
+	(tags "oscillator")
+	(property "Reference" "REF**"
+		(at 1.5 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "7557ad77-973f-4b23-9cb4-2026a6caa9fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KT2016K"
+		(at 1 2 0)
+		(layer "F.Fab")
+		(uuid "15c5bd75-e2fc-46ba-a707-6d01e0a69fae")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cee1dd8-3ac0-4d7a-bd42-5bedc1d0fa59")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca03bf5e-aeb5-404c-ac92-c41aeed3090c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d896e982-af1a-486b-b5cb-971cd176bd53")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -0.4 0.5)
+		(end 2.2 -1.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "05bcaac9-bbb7-4223-8721-7080ca4a517f")
+	)
+	(fp_circle
+		(center -0.6 0.4)
+		(end -0.5 0.4)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "277aa569-d65a-4486-9e2a-cd291434efa3")
+	)
+	(fp_rect
+		(start -0.5 0.6)
+		(end 2.3 -1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "b99442d5-62e1-4adc-b52d-d6d732e18100")
+	)
+	(fp_line
+		(start -0.1 -1.4)
+		(end -0.1 0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6b76864c-2b91-4aa3-9bf0-9d0dff446203")
+	)
+	(fp_line
+		(start -0.1 -1.4)
+		(end 1.9 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aaa4581b-d114-42ab-a248-909d2f61db40")
+	)
+	(fp_line
+		(start -0.1 0.2)
+		(end 1.9 0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8674b544-7503-4e12-9ab1-7d351e529ab1")
+	)
+	(fp_line
+		(start 1.9 -1.4)
+		(end 1.9 0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fc17ab48-f8b3-4e2d-96a8-13ffaf9cdedc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1 1 0)
+		(layer "F.Fab")
+		(uuid "1a45a4b5-9643-424c-8eb5-67630e58f711")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 0.6 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f49f7c3f-ed7a-4d34-99a7-870cd0a1872f")
+	)
+	(pad "2" smd rect
+		(at 1.8 0)
+		(size 0.6 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5e5a6d05-11cb-466c-b600-efedf9dd3f4c")
+	)
+	(pad "3" smd rect
+		(at 1.8 -1.2)
+		(size 0.6 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fb1c6081-a23a-4526-9cfe-cf5a1fa1d891")
+	)
+	(pad "4" smd rect
+		(at 0 -1.2)
+		(size 0.6 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ee936cb3-35e4-41d0-86a9-a75e9dc67b0f")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_DIP-8.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
